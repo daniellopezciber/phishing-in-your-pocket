@@ -57,6 +57,44 @@ In this project, the combination of **NFC + phishing** illustrates how an everyd
 ---
 
 
-![Phishing flow diagram](images/theoretical-flow.png)  
+![Phishing flow diagram](https://github.com/daniellopezciber/phishing-in-your-pocket/blob/main/nfc.jpg?raw=true)  
 *Flow of a phishing attack using an NFC keychain (educational simulation)*  
+
+
+
+---
+
+## 🛠️ Project Steps  
+
+### 1. Designing the keychain  
+![step1](images/step1-design.png)  
+A 3D keychain was designed using **MakerWorld**, starting with a simple Facebook logo as the base.  
+This demonstrates how everyday branding can be leveraged in social engineering attacks.  
+
+---
+
+### 2. Adding NFC space  
+![step2](images/step2-nfc-slot.png)  
+A cavity was created in the design to embed a **25mm NFC tag**, ensuring it would be encapsulated during 3D printing.  
+
+---
+
+### 3. Printing & embedding  
+![step3](images/step3-printing.png)  
+During printing, a **pause** was configured at the right layer so the NFC tag could be placed inside before the print continued and sealed it.  
+
+---
+
+### 4. Writing a URL to the NFC tag  
+![step4](images/step4-writing.png)  
+Using the **NFC Tools app**, a URL was written onto the NFC tag.  
+⚠️ In a real attack this could be a malicious page, but in this project it is only a **safe educational demo**.  
+
+---
+
+### 5. Simulation  
+![step5](images/step5-simulation.png)  
+When the keychain is scanned, the programmed URL automatically opens on the smartphone, demonstrating how easily a victim could be tricked.  
+
+---
 
