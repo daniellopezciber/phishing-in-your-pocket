@@ -67,7 +67,7 @@ In this project, the combination of **NFC + phishing** illustrates how an everyd
 ## 🛠️ Project Steps  
 
 ### 1. Designing the keychain  
-![step1](images/step1-design.png)  
+![step1](https://github.com/daniellopezciber/phishing-in-your-pocket/blob/main/dise%C3%B1o%20makerworld.png?raw=true)  
 A 3D keychain was designed using **MakerWorld**, starting with a simple Facebook logo as the base.  
 This demonstrates how everyday branding can be leveraged in social engineering attacks.  
 
