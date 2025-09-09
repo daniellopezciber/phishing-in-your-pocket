@@ -86,7 +86,7 @@ During printing, a **pause** was configured at the right layer so the NFC tag co
 ---
 
 ### 4. Writing a URL to the NFC tag  
-![step4](images/step4-writing.png)  
+![step4](https://github.com/daniellopezciber/phishing-in-your-pocket/blob/main/pyphisher.png?raw=true)  
 Using the **NFC Tools app**, a URL was written onto the NFC tag.  
 ⚠️ In a real attack this could be a malicious page, but in this project it is only a **safe educational demo**.  
 
