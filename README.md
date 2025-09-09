@@ -74,7 +74,7 @@ This demonstrates how everyday branding can be leveraged in social engineering a
 ---
 
 ### 2. Adding NFC space  
-![step2](images/step2-nfc-slot.png)  
+![step2](https://github.com/daniellopezciber/phishing-in-your-pocket/blob/main/dise%C3%B1o%20bambulab.png?raw=true)  
 A cavity was created in the design to embed a **25mm NFC tag**, ensuring it would be encapsulated during 3D printing.  
 
 ---
