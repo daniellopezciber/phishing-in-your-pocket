@@ -80,7 +80,7 @@ A cavity was created in the design to embed a **25mm NFC tag**, ensuring it woul
 ---
 
 ### 3. Printing & embedding  
-![step3](images/step3-printing.png)  
+![step3](https://github.com/daniellopezciber/phishing-in-your-pocket/blob/main/impresion%20bambulab.png?raw=true)  
 During printing, a **pause** was configured at the right layer so the NFC tag could be placed inside before the print continued and sealed it.  
 
 ---
