@@ -93,8 +93,70 @@ Using the **NFC Tools app**, a URL was written onto the NFC tag.
 ---
 
 ### 5. Simulation  
-![step5](images/step5-simulation.png)  
+![step5](https://github.com/daniellopezciber/phishing-in-your-pocket/blob/main/Robo%20de%20Credenciales.png?raw=true)  
 When the keychain is scanned, the programmed URL automatically opens on the smartphone, demonstrating how easily a victim could be tricked.  
 
 ---
+
+
+
+
+---
+
+## 📊 Results & Awareness  
+
+This educational simulation demonstrates that:  
+
+- 🎯 **Phishing remains the #1 cyber threat** — more than 80% of global breaches involve phishing.  
+- 🔑 **Everyday objects can be weaponized** — a simple keychain can be turned into a deceptive attack vector.  
+- 🧠 **Humans are the weakest link** — social engineering exploits curiosity and trust rather than breaking technology.  
+- 💡 **Awareness is critical** — once people see how easy it is, they become more cautious in real scenarios.  
+
+---
+
+
+
+
+---
+
+## ✅ Conclusions & Recommendations  
+
+This project shows that **cybersecurity is not only about technology — it’s about people**.  
+By turning a simple keychain into a phishing simulation, we highlight how **creativity and social engineering** can bypass technical defenses.  
+
+### 🔐 Recommendations:  
+- ✔️ **Always verify URLs** before entering credentials.  
+- ✔️ **Avoid scanning unknown NFC objects** or tags from untrusted sources.  
+- ✔️ **Enable Two-Factor Authentication (2FA)** to reduce account takeover risks.  
+- ✔️ **Stay informed** — continuous awareness is the strongest defense.  
+- ✔️ **Think before you click** — human judgment is the final security layer.  
+
+---
+
+
+---
+
+## 👤 Author  
+
+**Daniel Lopez**  
+Cybersecurity Enthusiast | Ethical Hacking Learner | Security Awareness Advocate  
+
+🔗 [LinkedIn](https://www.linkedin.com/in/daniel-lopez--garcia/) | [GitHub](https://github.com/daniellopezciber)  
+
+---
+
+## 🌎 Español (Resumen)  
+
+Este proyecto educativo demuestra cómo un **llavero NFC**, en un entorno controlado, puede usarse para explicar ataques de **phishing** e **ingeniería social**.  
+El objetivo es **crear conciencia en ciberseguridad** y mostrar que incluso los objetos cotidianos pueden convertirse en riesgos si no estamos preparados.  
+
+**Recomendaciones clave:**  
+- Verificar siempre la URL antes de ingresar credenciales.  
+- Evitar interactuar con llaveros NFC desconocidos.  
+- Activar la **autenticación de dos factores (2FA)**.  
+- Recordar que la **conciencia del usuario** es la mejor defensa.  
+
+---
+
+
 
