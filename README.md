@@ -1,7 +1,7 @@
 # 🔑 Phishing in your pocket  
 ### *The weakest link: how social engineering turns everyday objects into digital threats*  
 
-![nfc-keychain](ruta/de/la/imagen.png)
+![nfc-keychain](https://github.com/daniellopezciber/phishing-in-your-pocket/blob/main/llavero%20facebook%201.jpg?raw=true)
 
 ---
 
@@ -20,3 +20,38 @@ The project is intended to:
 - Teach about **phishing** and **NFC technology**.  
 - Show how **social engineering** exploits human trust.  
 - Promote **cybersecurity awareness**.  
+
+
+---
+
+## 🔍 Theoretical Background  
+
+### 📡 NFC (Near Field Communication)  
+NFC is a short-range wireless communication technology widely used in:  
+- Contactless payments  
+- Public transportation cards  
+- Smart access systems  
+- Everyday objects like keychains  
+
+Its main advantage is **convenience**: just tap and go.  
+However, this same ease can be exploited by attackers to deliver malicious links or trigger unwanted actions without the user noticing.  
+
+---
+
+### 🎭 Phishing  
+Phishing is a **social engineering technique** where an attacker tricks a victim into voluntarily revealing sensitive information such as usernames, passwords, or financial details.  
+
+Typical examples include:  
+- Fake login pages that imitate trusted services (e.g., Facebook, Gmail).  
+- Emails with urgent or threatening language.  
+- Malicious links hidden behind convincing messages.  
+
+---
+
+### 🧠 Social Engineering  
+Unlike traditional hacking, social engineering focuses on **exploiting human trust instead of breaking technology**.  
+It leverages curiosity, fear, or urgency to manipulate people into taking unsafe actions.  
+
+In this project, the combination of **NFC + phishing** illustrates how an everyday object (a simple keychain) could be transformed into a deceptive tool to raise awareness of these threats.  
+
+---
