@@ -55,3 +55,8 @@ It leverages curiosity, fear, or urgency to manipulate people into taking unsafe
 In this project, the combination of **NFC + phishing** illustrates how an everyday object (a simple keychain) could be transformed into a deceptive tool to raise awareness of these threats.  
 
 ---
+
+
+![Phishing flow diagram](images/theoretical-flow.png)  
+*Flow of a phishing attack using an NFC keychain (educational simulation)*  
+
