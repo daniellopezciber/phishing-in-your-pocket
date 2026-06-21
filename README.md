@@ -1,162 +1,92 @@
-# 🔑 Phishing in your pocket  
-### *The weakest link: how social engineering turns everyday objects into digital threats*  
+# NFC Phishing Awareness Lab
 
-![nfc-keychain](https://github.com/daniellopezciber/phishing-in-your-pocket/blob/main/llavero%20facebook%201.jpg?raw=true)
+Educational cybersecurity awareness project showing how an everyday NFC object can become a social engineering risk.
 
----
+This repository documents a **controlled lab simulation** using a 3D printed keychain and an NFC tag. The goal is to help people understand how trust, curiosity and convenience can be abused in phishing scenarios.
 
-## 🎯 About this project
-Have you ever imagined that a simple keychain could become the entry point to your most valuable passwords?  
-This project demonstrates, in a controlled and educational environment, how **NFC technology combined with social engineering** can be used to simulate a phishing attack.  
+No real credentials are collected. This project is for **training, awareness and defensive education only**.
 
-The goal is to **raise awareness in cybersecurity** by showing how everyday objects can be weaponized if users are not cautious.  
+![NFC keychain](https://github.com/daniellopezciber/phishing-in-your-pocket/blob/main/llavero%20facebook%201.jpg?raw=true)
 
----
+## Purpose
 
-## ⚠️ Disclaimer
-This repository is **strictly for educational purposes**.  
-The content presented here must **not** be used for illegal or malicious activities.  
-The project is intended to:  
-- Teach about **phishing** and **NFC technology**.  
-- Show how **social engineering** exploits human trust.  
-- Promote **cybersecurity awareness**.  
+The project demonstrates three important ideas:
 
+- Social engineering often targets human trust, not only technical systems.
+- NFC technology is convenient, but unknown tags should not be trusted blindly.
+- Security awareness becomes stronger when people can see and understand realistic attack paths in a safe environment.
 
----
+## Scenario
 
-## 🔍 Theoretical Background  
+In a real-world phishing scenario, an attacker could hide a URL inside an NFC tag and place that tag inside an object that looks harmless. When a phone scans the tag, the user may be redirected to a page that imitates a trusted service.
 
-### 📡 NFC (Near Field Communication)  
-NFC is a short-range wireless communication technology widely used in:  
-- Contactless payments  
-- Public transportation cards  
-- Smart access systems  
-- Everyday objects like keychains  
+This lab reproduces that idea in a controlled and ethical way to explain the risk and teach defensive behavior.
 
-Its main advantage is **convenience**: just tap and go.  
-However, this same ease can be exploited by attackers to deliver malicious links or trigger unwanted actions without the user noticing.  
+## What This Project Shows
 
----
+- How NFC tags can store URLs.
+- How physical objects can be used in social engineering.
+- How brand familiarity can influence user behavior.
+- Why URL verification and 2FA matter.
+- How to design security awareness material with practical examples.
 
-### 🎭 Phishing  
-Phishing is a **social engineering technique** where an attacker tricks a victim into voluntarily revealing sensitive information such as usernames, passwords, or financial details.  
+## Lab Steps
 
-Typical examples include:  
-- Fake login pages that imitate trusted services (e.g., Facebook, Gmail).  
-- Emails with urgent or threatening language.  
-- Malicious links hidden behind convincing messages.  
+### 1. Keychain Design
 
----
+![Design in MakerWorld](https://github.com/daniellopezciber/phishing-in-your-pocket/blob/main/dise%C3%B1o%20makerworld.png?raw=true)
 
-### 🧠 Social Engineering  
-Unlike traditional hacking, social engineering focuses on **exploiting human trust instead of breaking technology**.  
-It leverages curiosity, fear, or urgency to manipulate people into taking unsafe actions.  
+A simple keychain was designed as the physical object for the demonstration.
 
-In this project, the combination of **NFC + phishing** illustrates how an everyday object (a simple keychain) could be transformed into a deceptive tool to raise awareness of these threats.  
+### 2. NFC Space
 
----
+![Bambu Lab design](https://github.com/daniellopezciber/phishing-in-your-pocket/blob/main/dise%C3%B1o%20bambulab.png?raw=true)
 
+A cavity was added to place a 25 mm NFC tag inside the printed object.
 
-![Phishing flow diagram](https://github.com/daniellopezciber/phishing-in-your-pocket/blob/main/nfc.jpg?raw=true)  
-*Flow of a phishing attack using an NFC keychain (educational simulation)*  
+### 3. 3D Printing and Embedding
 
+![Bambu Lab print](https://github.com/daniellopezciber/phishing-in-your-pocket/blob/main/impresion%20bambulab.png?raw=true)
 
+The print was paused at the correct layer, the NFC tag was inserted, and the print continued to encapsulate the tag.
 
----
+### 4. NFC URL Writing
 
-## 🛠️ Project Steps  
+An educational URL was written to the NFC tag using an NFC writing app. In a malicious scenario, this could be abused to redirect users to unsafe websites.
 
-### 1. Designing the keychain  
-![step1](https://github.com/daniellopezciber/phishing-in-your-pocket/blob/main/dise%C3%B1o%20makerworld.png?raw=true)  
-A 3D keychain was designed using **MakerWorld**, starting with a simple Facebook logo as the base.  
-This demonstrates how everyday branding can be leveraged in social engineering attacks.  
+### 5. Awareness Simulation
 
----
+![Simulation flow](https://github.com/daniellopezciber/phishing-in-your-pocket/blob/main/nfc.jpg?raw=true)
 
-### 2. Adding NFC space  
-![step2](https://github.com/daniellopezciber/phishing-in-your-pocket/blob/main/dise%C3%B1o%20bambulab.png?raw=true)  
-A cavity was created in the design to embed a **25mm NFC tag**, ensuring it would be encapsulated during 3D printing.  
+When the object is scanned, the phone opens the programmed URL. This makes the risk visible and easy to understand for non-technical users.
 
----
+## Defensive Lessons
 
-### 3. Printing & embedding  
-![step3](https://github.com/daniellopezciber/phishing-in-your-pocket/blob/main/impresion%20bambulab.png?raw=true)  
-During printing, a **pause** was configured at the right layer so the NFC tag could be placed inside before the print continued and sealed it.  
+- Do not scan unknown NFC tags or QR codes.
+- Always verify the domain before entering credentials.
+- Use a password manager to detect fake login pages.
+- Enable multi-factor authentication.
+- Report suspicious objects, links or pages.
+- Treat unexpected login prompts with caution.
 
----
+## Use Cases
 
-### 4. Writing a URL to the NFC tag  
-![step4](https://github.com/daniellopezciber/phishing-in-your-pocket/blob/main/pyphisher.png?raw=true)  
-Using the **NFC Tools app**, a URL was written onto the NFC tag.  
-⚠️ In a real attack this could be a malicious page, but in this project it is only a **safe educational demo**.  
+This project can be used for:
 
----
+- Cybersecurity awareness sessions.
+- Social engineering training.
+- Internal security presentations.
+- Demonstrations for non-technical audiences.
+- Portfolio evidence for practical security education.
 
-### 5. Simulation  
-![step5](https://github.com/daniellopezciber/phishing-in-your-pocket/blob/main/Robo%20de%20Credenciales.png?raw=true)  
-When the keychain is scanned, the programmed URL automatically opens on the smartphone, demonstrating how easily a victim could be tricked.  
+## Ethical Notice
 
----
+This repository is strictly educational. It must not be used to collect credentials, impersonate services or target real users. The objective is to teach defensive awareness and reduce risk.
 
-
-
-
----
-
-## 📊 Results & Awareness  
-
-This educational simulation demonstrates that:  
-
-- 🎯 **Phishing remains the #1 cyber threat** — more than 80% of global breaches involve phishing.  
-- 🔑 **Everyday objects can be weaponized** — a simple keychain can be turned into a deceptive attack vector.  
-- 🧠 **Humans are the weakest link** — social engineering exploits curiosity and trust rather than breaking technology.  
-- 💡 **Awareness is critical** — once people see how easy it is, they become more cautious in real scenarios.  
-
----
-
-
-
-
----
-
-## ✅ Conclusions & Recommendations  
-
-This project shows that **cybersecurity is not only about technology — it’s about people**.  
-By turning a simple keychain into a phishing simulation, we highlight how **creativity and social engineering** can bypass technical defenses.  
-
-### 🔐 Recommendations:  
-- ✔️ **Always verify URLs** before entering credentials.  
-- ✔️ **Avoid scanning unknown NFC objects** or tags from untrusted sources.  
-- ✔️ **Enable Two-Factor Authentication (2FA)** to reduce account takeover risks.  
-- ✔️ **Stay informed** — continuous awareness is the strongest defense.  
-- ✔️ **Think before you click** — human judgment is the final security layer.  
-
----
-
-
----
-
-## 👤 Author  
+## Author
 
 **Daniel Lopez**  
-Cybersecurity Enthusiast | Ethical Hacking Learner | Security Awareness Advocate  
+Cybersecurity and AI automation learner focused on practical, ethical and well-documented projects.
 
-🔗 [LinkedIn](https://www.linkedin.com/in/daniel-lopez--garcia/) | [GitHub](https://github.com/daniellopezciber)  
-
----
-
-## 🌎 Español (Resumen)  
-
-Este proyecto educativo demuestra cómo un **llavero NFC**, en un entorno controlado, puede usarse para explicar ataques de **phishing** e **ingeniería social**.  
-El objetivo es **crear conciencia en ciberseguridad** y mostrar que incluso los objetos cotidianos pueden convertirse en riesgos si no estamos preparados.  
-
-**Recomendaciones clave:**  
-- Verificar siempre la URL antes de ingresar credenciales.  
-- Evitar interactuar con llaveros NFC desconocidos.  
-- Activar la **autenticación de dos factores (2FA)**.  
-- Recordar que la **conciencia del usuario** es la mejor defensa.  
-
----
-
-
-
+- GitHub: [daniellopezciber](https://github.com/daniellopezciber)
+- LinkedIn: [Daniel Lopez](https://www.linkedin.com/in/daniel-lopez--garcia/)
